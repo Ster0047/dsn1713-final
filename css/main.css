@@ -33,26 +33,136 @@
     height: 40px;
   }
 
-  .nav-item button {
+  .nav-item .btn {
     border: 1px solid #f77f7f;
     color: #f77f7f;
     border-radius: 20px;
     padding: 5px 15px;
     font-weight: bold;
+    text-transform: uppercase;
   }
-
-  .nav-item button:hover {
+  
+  .nav-item .btn:hover {
     background-color: #f77f7f;
     color: white;
   }
-
+  .currency-select {
+    border: 1px solid #f77f7f;
+    color: #f77f7f;
+    font-weight: bold;
+    text-align: center; /* Centers the content inside the dropdown */
+    padding: 5px 10px; /* Adjust padding for a better appearance */
+  }
+  
+  .currency-select:hover,
+  .currency-select:focus {
+    background-color: #f77f7f; /* Matches the hover style */
+    color: white; /* Changes text color on hover */
+    outline: none; /* Removes the default outline */
+  }
+  
+  /* Align dropdown text */
+  .currency-select option {
+    text-align: center; /* Ensures all options are centered */
+  }
+  
+  /* Search Bar */
   .search-bar {
     border: 1px solid #f77f7f;
     border-radius: 20px;
     padding: 5px 10px;
   }
-
+  
+  /* Cart Icon */
   .cart-icon {
     font-size: 1.5rem;
     color: #f77f7f;
+    margin-left: 10px;
   }
+  
+  .cart-icon:hover {
+    color: #f55f5f; /* Slightly darker hover effect */
+  }
+
+  .catalog-section {
+    padding: 40px 20px;
+  }
+
+  .catalog-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000; /* Thin underline for heading */
+    margin-bottom: 20px;
+  }
+
+  .catalog-heading h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .catalog-heading button {
+    background: none;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .catalog-heading button:hover {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: underline;
+  }
+
+  .card {
+    border: 1px solid #ddd; /* Light border around cards */
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+
+  .price-icon {
+    font-size: 1.2rem;
+    color: #000;
+  }
+
+  footer {
+    background-color: #F4DADB; 
+  }
+  
+  footer a:hover {
+    color: #ff6f61;
+  }
+  
+  footer .btn-outline-danger {
+    border-color: #ff6f61;
+    color: #ff6f61;
+  }
+  
+  footer .btn-outline-danger:hover {
+    background-color: #ff6f61;
+    color: #fff;
+  }
+  /* .custom-bg {
+    background: linear-gradient(to bottom, #fffce8, #fef7e1); 
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+  } */
