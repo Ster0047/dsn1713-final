@@ -1,0 +1,58 @@
+#hero {
+    height: 800px;
+    background-color: #E4E6DB;
+    background-image: url(../Images/homepage-herobanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #banner{
+    height: 800px;
+    background-color: #E4E6DB;
+    background-image: url(../Images/banner-artist-page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .banner {
+    background-color: #f77f7f; /* Coral color */
+    color: white;
+    font-weight: bold;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  /* Navbar Styling */
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #f77f7f; /* Coral border */
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .nav-item button {
+    border: 1px solid #f77f7f;
+    color: #f77f7f;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  .nav-item button:hover {
+    background-color: #f77f7f;
+    color: white;
+  }
+
+  .search-bar {
+    border: 1px solid #f77f7f;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+
+  .cart-icon {
+    font-size: 1.5rem;
+    color: #f77f7f;
+  }
