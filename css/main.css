@@ -57,8 +57,8 @@
   .currency-select:hover,
   .currency-select:focus {
     background-color: #f77f7f; /* Matches the hover style */
-    color: white; /* Changes text color on hover */
-    outline: none; /* Removes the default outline */
+    color: #f77f7f; /* Changes text color on hover */
+    outline: none; 
   }
   
   /* Align dropdown text */
@@ -158,7 +158,7 @@
   
   footer .btn-outline-danger:hover {
     background-color: #ff6f61;
-    color: #fff;
+    color: #ff6f61;
   }
   /* .custom-bg {
     background: linear-gradient(to bottom, #fffce8, #fef7e1); 
