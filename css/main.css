@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   }
 
   #banner{
@@ -16,12 +18,13 @@
     background-size: cover;
   }
   .banner {
-    background-color: #f77f7f; /* Coral color */
+    background-color: #f77f7f; 
     color: white;
     font-weight: bold;
     padding: 5px 0;
     text-align: center;
   }
+
 
   /* Navbar Styling */
   .navbar {
@@ -57,13 +60,13 @@
   .currency-select:hover,
   .currency-select:focus {
     background-color: #f77f7f; /* Matches the hover style */
-    color: #f77f7f; /* Changes text color on hover */
+    color: #f77f7f; 
     outline: none; 
   }
   
   /* Align dropdown text */
   .currency-select option {
-    text-align: center; /* Ensures all options are centered */
+    text-align: center; 
   }
   
   /* Search Bar */
@@ -111,7 +114,7 @@
   }
 
   .catalog-heading button:hover {
-    color: #007bff; /* Bootstrap primary color */
+    color: #007bff; 
     text-decoration: underline;
   }
 
@@ -157,9 +160,29 @@
   }
   
   footer .btn-outline-danger:hover {
-    background-color: #ff6f61;
+    background-color: #fffdfd;
     color: #ff6f61;
   }
+  .bannerabout {
+    background-image: url('../Images/homepage-herobanner.jpg'); /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid #f77f7f; 
+  }
+  
+  .bannerabout .btn-dark {
+    background-color: #1a1a2e;
+    border-color: #1a1a2e;
+  }
+  
+  .bannerabout .btn-dark:hover {
+    background-color: #000000;
+    border-color: #000000;
+  }
+  
   /* .custom-bg {
     background: linear-gradient(to bottom, #fffce8, #fef7e1); 
     width: 100%; 
