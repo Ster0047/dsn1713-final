@@ -135,6 +135,7 @@
   }
 
   .card-footer {
+    background-color:#F4DADB;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,6 +183,82 @@
     background-color: #000000;
     border-color: #000000;
   }
+
+  .svg-icon {
+    width: 20px; /* Adjust width */
+    height: 20px; /* Maintain proportions */
+    margin-left: auto; /* Push it to the far right */
+  }
+  .section {
+      padding: 40px 20px;
+      background-color: #fff8ef;
+    }
+    .section:nth-child(even) {
+      background-color: #faf4e8;
+    }
+    .image-container {
+      text-align: center;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    .text-container {
+      padding-top: 20px;
+    }
+    .text-container h3 {
+      font-weight: bold;
+    }
+    .text-container p {
+      margin-bottom: 10px;
+    }
+    .bannercat {
+      background-image: url('../Images/banner-artist-page.jpg'); /* Replace with the actual image URL */
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      color: #ffffff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+      border-bottom: 3px solid #f77f7f; 
+    }
+    
+    .bannercat .btn-dark {
+      background-color: #1a1a2e;
+      border-color: #1a1a2e;
+    }
+    
+    .bannercat .btn-dark:hover {
+      background-color: #000000;
+      border-color: #000000;
+    }
+
+
+
+
+    .card-img-top {
+      height: 200px; /* Set desired fixed height for images */
+      object-fit: cover; /* Ensures the image scales and crops properly */
+    }
+    .card-header {
+      background-color: #f5e7f0;
+      color: #6d6875;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: none;
+    }
+    .card {
+      height: 100%;
+      
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .card-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .card-price {
+      font-weight: bold;
+      color: #6d6875;
+    }
   
   /* .custom-bg {
     background: linear-gradient(to bottom, #fffce8, #fef7e1); 
