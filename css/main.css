@@ -222,15 +222,7 @@
       border-bottom: 3px solid #f77f7f; 
     }
     
-    .bannercat .btn-dark {
-      background-color: #1a1a2e;
-      border-color: #1a1a2e;
-    }
     
-    .bannercat .btn-dark:hover {
-      background-color: #000000;
-      border-color: #000000;
-    }
 
 
 
@@ -259,6 +251,19 @@
       font-weight: bold;
       color: #6d6875;
     }
+    .bannermiddle {
+      background-image: url('../Images/featured-artist-banner.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      color: #ffffff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+      border-bottom: 3px solid #f77f7f; 
+    }
+    
+    
+
+
   
   /* .custom-bg {
     background: linear-gradient(to bottom, #fffce8, #fef7e1); 
